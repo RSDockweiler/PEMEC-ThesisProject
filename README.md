@@ -1,6 +1,6 @@
 # PEMEC-ThesisProject
 
-twoPhaseEulerIsothermal is the standard twoPhaseEulerFoam, but with the energy equation excluded. \\
+twoPhaseEulerIsothermal is the standard twoPhaseEulerFoam, but with the energy equation excluded. \linebreak
 porousV3  is the twoPhaseEulerFoam solver with enchanced two-phase porous treatment - requires inclusion of constant/porousProperties
 
 The folder gridConv contains the simulations used for a grid convergence study.
