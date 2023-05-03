@@ -17,6 +17,7 @@ The modelStudy contains different model studies:
   - Permeability study: No porous layer, K = 2.25e-5, K=2.25e11 (gradually increasing, FDarcyLimit = +/- 10e4)
   - heatTransfer: Including energy equation, updated boundary condition at bottom of porous layer to constant flux q, based on chemical reaction.
   - phaseChange: -
+
 matlabScripts contains different matlab scripts used for different calculations and plots:
   - GCI_FUNC: Matlab function for GCI test
   - GridOutlet: GCI test at the outlet. Data is obtained from paraview, using the integrate variables filter.
