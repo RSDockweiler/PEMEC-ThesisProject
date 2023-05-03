@@ -8,10 +8,15 @@ porousV3  is the twoPhaseEulerFoam solver with enchanced two-phase porous treatm
 
 porousHeatTransferV0 is porousV3 including the total energy equation, modified for the inclusion of a porous layer.
 
+porousPhaseChangeV0 -
+
 The folder gridConv contains the simulations used for a grid convergence study.
 
-The modelStudy contains a permeability study and a flow regime study.
-
+The modelStudy contains different model studies:
+  - flow regime study: stratified, plug, slug, annular
+  - Permeability study: No porous layer, K = 2.25e-5, K=2.25e11 (gradually increasing, FDarcyLimit = +/- 10e4)
+  - heatTransfer: Including energy equation, updated boundary condition at bottom of porous layer to constant flux q, based on chemical reaction.
+  - phaseChange: -
 matlabScripts contains different matlab scripts used for different calculations and plots:
   - GCI_FUNC: Matlab function for GCI test
   - GridOutlet: GCI test at the outlet. Data is obtained from paraview, using the integrate variables filter.
