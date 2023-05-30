@@ -3,7 +3,6 @@
 Collection of everything I have used for my thesis.
 
 Solvers include:
-
   twoPhaseEulerIsothermal is the standard twoPhaseEulerFoam, but with the energy equation excluded.
   
   porousV3  is the twoPhaseEulerFoam solver with enchanced two-phase porous treatment - requires inclusion of constant/porousProperties 
