@@ -3,9 +3,9 @@
 Collection of everything I have used for my thesis.
 
 Solvers include:  <br>
-  twoPhaseEulerIsothermal is the standard twoPhaseEulerFoam, but with the energy equation excluded. <br>
-  porousV3  is the twoPhaseEulerFoam solver with enchanced two-phase porous treatment - requires inclusion of constant/porousProperties <br>
-  porousHeatTransferV0 is porousV3 including the energy equation, modified for the inclusion of a porous layer and excluding mechanical energy.<br>
+- twoPhaseEulerIsothermal is the standard twoPhaseEulerFoam, but with the energy equation excluded. <br>
+- porousV3  is the twoPhaseEulerFoam solver with enchanced two-phase porous treatment - requires inclusion of constant/porousProperties <br>
+- porousHeatTransferV0 is porousV3 including the energy equation, modified for the inclusion of a porous layer and excluding mechanical energy.<br>
 
 
 Cases include
